@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity 0.8.20;
+pragma solidity 0.8.28;
 
-import {IERC20} from './IERC20.sol';
+import {IERC20} from '@openzeppelin/contracts/token/ERC20/ERC20.sol';
 contract ERC20ReferenceImplementation is ERC20 {
-    constructor() ERC20("Fixed", "FIX") {
+    constructor() ERC20("ERC20CSPN", "CSP") {
         _mint(msg.sender, 1000);
     }
 }

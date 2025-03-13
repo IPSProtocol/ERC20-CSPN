@@ -6,10 +6,7 @@ The evaluation aims to formally assess the **security and compliance of the ERC-
 
 ## 📜 ERC-20 Implementation Details  
 - **Standard:** ERC-20 (Ethereum Improvement Proposal - [EIP-20](https://eips.ethereum.org/EIPS/eip-20))  
-- **Base Implementation:** [OpenZeppelin ERC-20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol)  
+- **Base Implementation:** [OpenZeppelin ERC-20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v5.2.0/contracts/token/ERC20/ERC20.sol)  
 - **Functionality:** Minting, Transfers, Approvals, Allowances  
 - **Security Scope:** CSPN Evaluation  
 - **Audited Version:** `v1.0.0-CSPN`  
-
-## 📂 Files and Structure  
-TODO
